@@ -44,3 +44,5 @@ export function GameProvider({ children }) {
     </GameContext.Provider>
   );
 }
+
+export default gameReducer;
