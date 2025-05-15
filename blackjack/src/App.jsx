@@ -1,14 +1,12 @@
-//import { useState } from "react";
-//import reactLogo from "./assets/react.svg";
-//import viteLogo from "/vite.svg";
-import GameProvider from "./contexts/Game";
-import GameBoard from "./components/GameBoard.jsx";
-import "./App.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Game from './components/Game';
+import { GameProvider } from './contexts/GameContext';
 
 function App() {
   return (
     <GameProvider>
-      <GameBoard />
+      <Game />
     </GameProvider>
   );
 }
